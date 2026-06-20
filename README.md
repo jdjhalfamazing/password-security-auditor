@@ -1,36 +1,83 @@
 # Password Security Auditor
 
-A web-based password security auditing tool built with Java Spring Boot, HTML, CSS, and JavaScript.
+A full-stack web application that analyzes password strength and provides security recommendations.
 
-Live Demo:
-https://password-security-auditor-pi.vercel.app
+## Live Demo
 
-GitHub:
-https://github.com/jdjhalfamazing/password-security-auditor
+Frontend:
+https://your-vercel-url.vercel.app
 
-Features:
+Backend API:
+https://password-security-auditor-md3e.onrender.com
+
+## Features
+
 - Password strength analysis
+- Password score calculation (0-100)
 - Entropy calculation
-- Security recommendations
-- Password generation
+- Password generator
 - Password history tracking
-- Copy-to-clipboard functionality
-- Responsive dark-themed UI
+- Common password detection
+- Security recommendations
+- REST API built with Spring Boot
 
-Technologies:
-- Java
-- Spring Boot
+## Technologies Used
+
+### Frontend
 - HTML
 - CSS
 - JavaScript
-- Git
+
+### Backend
+- Java 17
+- Spring Boot
+- REST API
+
+### Deployment
 - GitHub
+- Docker
+- Render
 - Vercel
 
-## Future Enhancements
+## API Endpoint
 
-- REST API backend
-- Common password database
-- Breach detection
-- User authentication
-- Database integration
+### Analyze Password
+
+```http
+POST /api/analyze
+```
+
+Request:
+
+```json
+{
+  "password": "MySecurePassword123!"
+}
+```
+
+Response:
+
+```json
+{
+  "score": 100,
+  "strength": "Strong",
+  "entropy": 84,
+  "warnings": "None",
+  "recommendations": "Password meets basic security requirements"
+}
+```
+
+## Project Architecture
+
+Frontend (Vercel)
+      ↓
+Spring Boot REST API (Render)
+      ↓
+Password Analysis Service
+
+## Author
+
+Joseph Jordan
+
+GitHub:
+https://github.com/jdjhalfamazing/password-security-auditor
