@@ -2,6 +2,12 @@
 
 A web-based password security auditing tool built with Java Spring Boot, HTML, CSS, and JavaScript.
 
+Live Demo:
+https://password-security-auditor-pi.vercel.app
+
+GitHub:
+https://github.com/jdjhalfamazing/password-security-auditor
+
 Features:
 - Password strength analysis
 - Entropy calculation
