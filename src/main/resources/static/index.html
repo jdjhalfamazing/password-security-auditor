@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Security Auditor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Password Security Auditor</h1>
+<div class="password-row">
+    <input type="password" id="passwordInput" placeholder="Enter Password">
+
+    <label class="show-password">
+        <input type="checkbox" onclick="togglePassword()">
+        Show Password
+    </label>
+</div>
+
+
+        <br><br>
+
+       <button onclick="analyzePassword()">Analyze Password</button>
+<button onclick="generatePassword()">Generate Password</button>
+<button onclick="copyPassword()">Copy Password</button>
+<div class="card">
+    <h2>Results</h2>
+    <p id="score">Score: --</p>
+    <p id="strength">Strength: --</p>
+    <p id="entropy">Entropy: --</p>
+    <p id="warnings">Warnings: None</p>
+    <p id="recommendations">Recommendations: --</p>
+    <p id="copyMessage"></p>
+</div>
+
+<div class="card">
+    <h2>Password History</h2>
+    <ul id="historyList"></ul>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
