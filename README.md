@@ -4,10 +4,6 @@ A full-stack web application that analyzes password strength and provides securi
 
 ## Live Demo
 
-Frontend:
-https://your-vercel-url.vercel.app
-
-Backend API:
 https://password-security-auditor-md3e.onrender.com
 
 ## Features
