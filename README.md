@@ -1,25 +1,25 @@
 # Password Security Auditor
 
-A password security auditing application built using Java Spring Boot, HTML, CSS, and JavaScript.
+A web-based password security auditing tool built with Java Spring Boot, HTML, CSS, and JavaScript.
 
-## Features
-
-- Password generation
+Features:
 - Password strength analysis
 - Entropy calculation
-- Password history tracking
-- Password visibility toggle
-- Copy-to-clipboard functionality
-- Security warnings
 - Security recommendations
+- Password generation
+- Password history tracking
+- Copy-to-clipboard functionality
+- Responsive dark-themed UI
 
-## Technologies
-
+Technologies:
 - Java
 - Spring Boot
 - HTML
 - CSS
 - JavaScript
+- Git
+- GitHub
+- Vercel
 
 ## Future Enhancements
 
